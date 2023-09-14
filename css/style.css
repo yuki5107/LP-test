@@ -1,0 +1,131 @@
+.header__nav {
+    display: flex
+}
+
+.header__img-link img {
+    width: 15%;
+    margin: 5px;
+}
+
+.header__nav-list {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+.header__nav-item {
+    font-size: small;
+    padding: 10px;
+}
+
+.header__nav-item--link {
+    color: gray;
+    text-decoration: none
+}
+
+.content {
+    position: relative;
+}
+
+.content__firstview {
+    width: 60%;
+    margin: 0 0 0 auto;
+    display: block;
+    padding-top: 10px;
+}
+
+.content__coment-red {
+    font-size: 55px;
+    font-family: 'Indie Flower', cursive;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    color:#C71585
+}
+
+.content__coment-blue {
+    color:#009999;
+}
+
+.content__coment-txt--red{
+    font-size: 20px;
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    color: #C71585
+}
+
+.content__coment-txt--blue {
+    color: #009999;
+}
+
+.content__coment-txt--bottom {
+    font-size: small;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    padding-top: 5px;
+    color: gray;
+}
+
+.news {
+    margin-top: 10%;
+}
+
+.news__title {
+    margin-left: 20%;
+    color: #C71585;
+    font-family: 'Indie Flower', cursive;
+    font-size: small;
+}
+
+.news__title-tab {
+    margin-left: 20%;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    font-size: 20px;
+    color:grey;
+}
+
+.news__list {
+    max-width: 1230px;
+    width: 60%;
+    margin-left: 20%;
+    border-bottom: 2px solid #d3d3d3;
+    border-top: 2px solid #d3d3d3;
+    margin-top: 20px;
+    padding: 10px 0 30px 0;
+}
+
+.news__list-item {
+    display: flex;
+    padding: 10px 10px ;
+    width: 100%;
+    font-size: small;
+    color: gray;
+    border-bottom: 0.5px solid silver;
+    text-indent: -1em;
+}
+
+.news__item-date {
+    width: 20%;
+    padding: 0,30px;
+    margin-left: 0 auto;
+    margin-right: 30px;
+}
+.news__item-cat {
+    display: inline-block;
+    width: 80px;
+    padding: 5px 0;
+    margin-right: 30px;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    background-color:#C71585
+    
+
+    
+
+}
